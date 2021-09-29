@@ -24,7 +24,7 @@ namespace DeliveryBoyt.DisplayServer
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            _ = Bot.MainAsync();
+            _ = Bot.InitBot();
         }
     }
 }
